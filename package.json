@@ -25,6 +25,8 @@
     "nodemon": "^2.0.13"
   },
   "dependencies": {
+    "@locospec/engine": "^0.0.34",
+    "@locospec/operator-knexjs": "^0.0.15",
     "@sentry/node": "^6.16.1",
     "@sentry/tracing": "^6.16.1",
     "dotenv": "^10.0.0",

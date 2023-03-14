@@ -26,4 +26,16 @@ Visit [NobeJs Website](https://nobejs.org)
 1. yarn bump
 2. yarn release
 
--
+---
+
+- Install these two packages
+  - "@locospec/engine"
+  - "@locospec/operator-knexjs"
+- create loco folder
+- create bootstrap file
+- initialize bootstrap in server.js
+- create resource folder
+- create migration
+- create resource
+- if hooks is required create hooks folder
+  - create index.js: <before/after> <prepare/validate/Handle> <Create/read/patch> <resource/Users>,
